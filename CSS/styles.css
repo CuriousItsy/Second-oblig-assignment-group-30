@@ -1,57 +1,52 @@
 /* CSS Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-h1.article-title{
-    font-family:Arial, Helvetica, sans-serif;
-    line-height: normal;
-    color:chocolate;
-    padding: 15px 15px 20px 20px;
+h1.article-title {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: normal;
+	color: chocolate;
+	padding: 15px 15px 20px 20px;
 }
 
-h2.article-subtitle{
-    font-family:Arial, Helvetica, sans-serif;
-    line-height: normal;
-    color:chocolate;
-    padding: 15px 15px 20px 20px;    
-
+h2.article-subtitle {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: normal;
+	color: chocolate;
+	padding: 15px 15px 20px 20px;
 }
 
-span.author{
-    font-family:Arial, Helvetica, sans-serif;
-    line-height: normal;
-    color:#5c483ada;
-    padding: 15px 15px 20px 20px; 
-    font-weight: bold;
-    font-size: 0.8rem;
+span.author {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: normal;
+	color: #5c483ada;
+	padding: 15px 15px 20px 20px;
+	font-weight: bold;
+	font-size: 0.8rem;
 }
-span.date{
-    font-family:Arial, Helvetica, sans-serif;
-    line-height: normal;
-    color:#5c483ada;
-    padding: 15px 15px -20px 20px; 
-    font-weight: bold;
-    font-size: 0.8rem;
-
+span.date {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: normal;
+	color: #5c483ada;
+	padding: 15px 15px -20px 20px;
+	font-weight: bold;
+	font-size: 0.8rem;
 }
-figcaption{
-    padding: 0px 0px 20px 20px;
-    color:#5c483ada;
-}
-
-p.photographer{
-    padding: 0px 0px 0px 0px;
-    color:#000000da;
-    font-weight: bold;
-
+figcaption {
+	padding: 0px 0px 20px 20px;
+	color: #5c483ada;
 }
 
-
-
-.article-image{
-
+p.photographer {
+	padding: 0px 0px 0px 0px;
+	color: #000000da;
+	font-weight: bold;
 }
 
+.article-image {
+	width: 640px;
+	height: 360px;
+}
